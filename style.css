@@ -1,0 +1,69 @@
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  background: #2a9df4;
+}
+
+.main {
+    margin-top: 100px;
+    background: #2a9df4;
+    width: 800px;
+    border-radius: 20px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+h1 sup {
+	text-transform: lowercase;
+	color: #FF3E41;
+}
+
+#countdown {
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  letter-spacing: 5px;
+  margin-top: 2em;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.days {
+  background: #ffffff;
+}
+
+.hours {
+  background:  #ffffff;
+}
+
+.minutes {
+  background: #ffffff;
+}
+
+.seconds {
+  background:  #ffffff;
+}
+
+.c-number {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-size: 5em;
+}
